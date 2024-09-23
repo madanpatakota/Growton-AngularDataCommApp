@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Growton-AngularDataCommApp';
+
+      techonologies = "Angular and Typescript";
+
+      AnotherTechnologies = "HTML , CSS and Javascript";
+
+
+      receivedData = "";
+
+
+      receivedEvent(details:any){
+        console.log("received....Thank YOu!!!" , details);
+        this.receivedData = details;
+      }
+
+  
 }

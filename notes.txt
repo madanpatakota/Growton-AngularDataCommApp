@@ -1,0 +1,12 @@
+
+
+1  . Data communication between the parent child  and child to the parent.
+
+
+
+parent to child -> @input
+
+
+child to parent -> @output
+
+setup
